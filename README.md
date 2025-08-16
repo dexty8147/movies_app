@@ -1,4 +1,3 @@
-# movies_app🎬 Movies & TV Show App
 
 A Next.js 13+ web application that allows users to browse trending movies and TV shows, search for titles, and view details — powered by the TMDB API.
 
@@ -16,21 +15,21 @@ A Next.js 13+ web application that allows users to browse trending movies and TV
 
 movies_app/
 │── app/
-│   ├── movie/page.jsx       # Movies page
-│   ├── tv/page.jsx          # TV Shows page
-│   ├── search/page.jsx      # Search page
-│   ├── page.jsx             # Home page (Trending)
-│   ├── layout.jsx           # Layout + Navbar
+│   ├── movie/page.jsx       
+│   ├── tv/page.jsx          
+│   ├── search/page.jsx      
+│   ├── page.jsx             
+│   ├── layout.jsx           
 │── components/
-│   ├── MediaCard.jsx        # Card for movie/TV item
-│   ├── MediaGrid.jsx        # Grid wrapper
-│   ├── Navbar.jsx           # Navigation bar
+│   ├── MediaCard.jsx        
+│   ├── MediaGrid.jsx        
+│   ├── Navbar.jsx           
 │── lib/
-│   ├── tmdb.js              # TMDB API helper functions
-│── public/                  # Public assets
+│   ├── tmdb.js              
+│── public/                  
 │── styles/
-│   ├── global.css           # Global styles
-│── .env.local.example       # Example environment file
+│   ├── global.css           
+│── .env.local.example       
 │── package.json
 │── README.md
 🛠️ Installation & Setup
@@ -49,9 +48,7 @@ App will be available at 👉 http://localhost:3000
 🔧 Tech Stack
 
 Next.js 13+ (App Router)
-
 React
-
 Tailwind CSS
 
 TMDB API
